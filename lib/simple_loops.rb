@@ -22,11 +22,10 @@ end
 
 def output_array(arr)
 
-    counts = 0
-    while counts < arr.length do
-        puts arr[counts]
-        counts += 1
-
+    index = 0
+    while index < arr.length do
+        puts arr[index]
+        index += 1
     end
 end
 
