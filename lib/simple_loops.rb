@@ -24,7 +24,7 @@ def output_array(arr)
 
     index = 0
     while index < arr.length do
-        arr[index]
+        puts arr[index]
         index += 1
     end
 end
