@@ -30,5 +30,17 @@ def output_array(arr)
 end
 
 
+def return_string_array(arr)
+
+    index = 0
+    new_arr = []
+
+    while index < arr.length do
+
+        puts new_arr.push(arr[index].to_s)
+        index += 1
+    end
+    new_arr
+end
 
 
